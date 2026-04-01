@@ -97,9 +97,9 @@ nav{position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:500;back
 .sp-name{font-size:.85rem;font-weight:500}
 
 /* PROJECTS */
-.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.proj-grid{display:grid;grid-template-columns:1fr;gap:1.5rem}
 .proj-card.glass-card{padding:2rem;display:flex;flex-direction:column;gap:1rem}
-.proj-card.big{grid-column:span 2}
+/* .proj-card.big{grid-column:span 2} */
 .proj-num{font-family:'JetBrains Mono',monospace;font-size:.6rem;color:var(--muted);letter-spacing:.15em}
 .proj-title{font-size:1.3rem;font-weight:700;letter-spacing:-.02em}
 .proj-desc{font-size:.82rem;color:var(--muted);line-height:1.75;flex:1}
@@ -242,26 +242,43 @@ footer{position:relative;z-index:2;border-top:1px solid var(--glass-border);padd
   <div class="proj-grid">
     <div class="proj-card big glass-card">
       <div class="proj-num">01 · FEATURED</div>
+      <div class="proj-title">FixIt</div>
+      <p class="proj-desc">FixIt is a full-stack web application that connects users with verified service providers such as plumbers, electricians, and cleaners, while also enabling users to purchase essential tools and products from nearby vendors</p>
+      <div class="proj-tags">
+        <span class="ptag">Python</span><span class="ptag">Flask</span><span class="ptag">MySQL</span><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">RENDER</span>
+      </div>
+      <a href="https://fixit-cka0.onrender.com/" target="_blank">
+       <div class="proj-arrow">↗</div>
+      </a>
+    </div>
+    <div class="proj-card big glass-card">
+      <div class="proj-num">02 · FEATURED</div>
       <div class="proj-title">Facial Recognition Attendance System</div>
       <p class="proj-desc">A full-stack Python web application automating student and faculty attendance using real-time facial recognition. Features secure login, face registration, entry–exit tracking, attendance percentage calculation, eligibility checks, and subject-wise result generation. Backed by MySQL for reliability.</p>
       <div class="proj-tags">
-        <span class="ptag">Python</span><span class="ptag">OpenCV</span><span class="ptag">FaceRecognition</span><span class="ptag">Flask</span><span class="ptag">MySQL</span><span class="ptag">HTML/CSS</span>
+        <span class="ptag">Python</span><span class="ptag">OpenCV</span><span class="ptag">FaceRecognition</span><span class="ptag">Flask</span><span class="ptag">MySQL</span><span class="ptag">HTML</span><span class="ptag">CSS</span>
       </div>
-      <div class="proj-arrow">↗</div>
-    </div>
-    <div class="proj-card glass-card">
-      <div class="proj-num">02</div>
-      <div class="proj-title">LeetMetric</div>
-      <p class="proj-desc">A responsive web app visualising a LeetCode user's progress in real-time — problems solved by difficulty, global rank, acceptance rate, and overall stats. Deployed on Netlify.</p>
-      <div class="proj-tags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span><span class="ptag">API</span></div>
-      <div class="proj-arrow">↗</div>
+      <a href="https://your-project-link.com" target="_blank">
+       <div class="proj-arrow">↗</div>
+      </a>
     </div>
     <div class="proj-card glass-card">
       <div class="proj-num">03</div>
+      <div class="proj-title">LeetMetric</div>
+      <p class="proj-desc">A responsive web app visualising a LeetCode user's progress in real-time — problems solved by difficulty, global rank, acceptance rate, and overall stats. Deployed on Netlify.</p>
+      <div class="proj-tags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span><span class="ptag">API</span></div>
+      <a href="https://thunderous-tiramisu-8900b3.netlify.app/" target="_blank">
+       <div class="proj-arrow">↗</div>
+      </a>
+    </div>
+    <div class="proj-card glass-card">
+      <div class="proj-num">04</div>
       <div class="proj-title">Rock Paper Scissors</div>
       <p class="proj-desc">A dynamic game with smooth animations, responsive layout, and real-time result updates. Designed for both desktop and mobile — showcasing event handling and conditional logic.</p>
       <div class="proj-tags"><span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">JavaScript</span></div>
-      <div class="proj-arrow">↗</div>
+      <a href="https://symphonious-croissant-68c00e.netlify.app/" target="_blank">
+       <div class="proj-arrow">↗</div>
+      </a>
     </div>
   </div>
 </section>
